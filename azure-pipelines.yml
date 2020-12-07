@@ -8,7 +8,7 @@ trigger:
 
 pool:
   #vmImage: 'ubuntu-latest'
-  Inqubator: heu2hubazuredevopsagent
+  Inqubator
   
 container: gitlab.qpidhealth.net:4567/devops/ci/java:openjdk-8u181_mvn_1
 
