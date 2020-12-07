@@ -10,7 +10,7 @@ pool:
   #vmImage: 'ubuntu-latest'
   name: Inqubator
   demands:
-   -agent.name -equals heu2hubazuredevopsagent
+   - agent.name -equals heu2hubazuredevopsagent
   
 container: gitlab.qpidhealth.net:4567/devops/ci/java:openjdk-8u181_mvn_1
 
