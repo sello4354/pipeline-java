@@ -22,7 +22,7 @@ steps:
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'path'
-    mavenDirectory: '/usr/local/src/apache-maven/bin/'
+    mavenDirectory: '/usr/local/src/apache-maven'
     mavenSetM2Home: true
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
