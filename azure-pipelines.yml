@@ -23,9 +23,10 @@ steps:
     mavenDirectory: '/usr/local/src/apache-maven'
     mavenSetM2Home: true
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
+    javaHomeOption: 'Path'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
+    jdkDirectory: '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
