@@ -15,12 +15,12 @@ pool:
 container: gitlab.qpidhealth.net:4567/devops/ci/java:openjdk-8u181_mvn_1
 
 steps:
-- script: export PATH=$PATH:/usr/local/src/apache-maven/bin/ && echo $PATH && mvn package
+- script: export PATH=$PATH:/usr/local/src/apache-maven/bin && echo $PATH && mvn package
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     mavenVersionOption: 'path'
-    mavenDirectory: '/usr/local/src/apache-maven'
+    mavenDirectory: '/usr/local/src/apache-maven/bin'
     mavenSetM2Home: true
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
