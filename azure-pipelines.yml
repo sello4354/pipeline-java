@@ -20,6 +20,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'path'
     mavenDirectory: '/usr/local/src/apache-maven/bin/'
     mavenSetM2Home: true
     jdkVersionOption: '1.8'
